@@ -9,7 +9,19 @@ export default function Terms() {
         description="Flying Chess AI Terms & Conditions. User responsibilities, intellectual property rights, and usage guidelines."
       />
 
+<<<<<<< HEAD
       <section className="py-20 px-4 bg-gradient-to-br from-blue-50 via-white to-indigo-50">
+=======
+<<<<<<< HEAD
+      <section className="py-20 px-4 bg-gradient-to-br from-blue-50 via-white to-indigo-50">
+=======
+<<<<<<< HEAD
+      <section className="py-20 px-4 bg-gradient-to-br from-blue-50 via-white to-indigo-50">
+=======
+      <section className="py-20 px-4">
+>>>>>>> 347525115ef20ad50f759c5ab2adadfaf93ee0be
+>>>>>>> 664a809628480733e7cfa0e359849c4a7c5472a5
+>>>>>>> b5007b06da44a0a711da5b3998b04d422ac95fb9
         <div className="max-w-4xl mx-auto">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -17,10 +29,29 @@ export default function Terms() {
             transition={{ duration: 0.6 }}
             className="text-center mb-16"
           >
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 664a809628480733e7cfa0e359849c4a7c5472a5
+>>>>>>> b5007b06da44a0a711da5b3998b04d422ac95fb9
             <h1 className="text-5xl sm:text-6xl font-bold text-gray-900 mb-6">
               Terms & Conditions
             </h1>
             <p className="text-xl text-gray-600">
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+            <h1 className="text-5xl sm:text-6xl font-bold text-white mb-6">
+              Terms & Conditions
+            </h1>
+            <p className="text-xl text-slate-300">
+>>>>>>> 347525115ef20ad50f759c5ab2adadfaf93ee0be
+>>>>>>> 664a809628480733e7cfa0e359849c4a7c5472a5
+>>>>>>> b5007b06da44a0a711da5b3998b04d422ac95fb9
               Last Updated: {new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}
             </p>
           </motion.div>
@@ -29,11 +60,31 @@ export default function Terms() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 664a809628480733e7cfa0e359849c4a7c5472a5
+>>>>>>> b5007b06da44a0a711da5b3998b04d422ac95fb9
             className="bg-white border-2 border-gray-200 rounded-2xl p-8 sm:p-12 space-y-8 shadow-lg"
           >
             <section>
               <h2 className="text-3xl font-bold text-gray-900 mb-4">Agreement to Terms</h2>
               <p className="text-gray-700 leading-relaxed">
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+            className="bg-slate-800/30 backdrop-blur-sm border border-slate-700 rounded-2xl p-8 sm:p-12 space-y-8"
+          >
+            <section>
+              <h2 className="text-3xl font-bold text-white mb-4">Agreement to Terms</h2>
+              <p className="text-slate-300 leading-relaxed">
+>>>>>>> 347525115ef20ad50f759c5ab2adadfaf93ee0be
+>>>>>>> 664a809628480733e7cfa0e359849c4a7c5472a5
+>>>>>>> b5007b06da44a0a711da5b3998b04d422ac95fb9
                 By accessing or using Flying Chess AI (the "Game"), you agree to be bound by these Terms
                 and Conditions. If you do not agree with any part of these terms, you may not use the Game.
                 Please read these terms carefully before downloading or playing.
@@ -41,20 +92,65 @@ export default function Terms() {
             </section>
 
             <section>
+<<<<<<< HEAD
               <h2 className="text-3xl font-bold text-gray-900 mb-4">License to Use</h2>
               <div className="space-y-4 text-gray-700 leading-relaxed">
+=======
+<<<<<<< HEAD
+              <h2 className="text-3xl font-bold text-gray-900 mb-4">License to Use</h2>
+              <div className="space-y-4 text-gray-700 leading-relaxed">
+=======
+<<<<<<< HEAD
+              <h2 className="text-3xl font-bold text-gray-900 mb-4">License to Use</h2>
+              <div className="space-y-4 text-gray-700 leading-relaxed">
+=======
+              <h2 className="text-3xl font-bold text-white mb-4">License to Use</h2>
+              <div className="space-y-4 text-slate-300 leading-relaxed">
+>>>>>>> 347525115ef20ad50f759c5ab2adadfaf93ee0be
+>>>>>>> 664a809628480733e7cfa0e359849c4a7c5472a5
+>>>>>>> b5007b06da44a0a711da5b3998b04d422ac95fb9
                 <p>
                   We grant you a limited, non-exclusive, non-transferable, revocable license to use
                   Flying Chess AI for personal, non-commercial purposes, subject to these terms.
                 </p>
+<<<<<<< HEAD
                 <p className="font-semibold text-gray-900">You may:</p>
                 <ul className="list-disc list-inside space-y-2 text-gray-600">
+=======
+<<<<<<< HEAD
+                <p className="font-semibold text-gray-900">You may:</p>
+                <ul className="list-disc list-inside space-y-2 text-gray-600">
+=======
+<<<<<<< HEAD
+                <p className="font-semibold text-gray-900">You may:</p>
+                <ul className="list-disc list-inside space-y-2 text-gray-600">
+=======
+                <p className="font-semibold text-white">You may:</p>
+                <ul className="list-disc list-inside space-y-2 text-slate-400">
+>>>>>>> 347525115ef20ad50f759c5ab2adadfaf93ee0be
+>>>>>>> 664a809628480733e7cfa0e359849c4a7c5472a5
+>>>>>>> b5007b06da44a0a711da5b3998b04d422ac95fb9
                   <li>Download and install the Game on your personal devices</li>
                   <li>Play the Game for personal entertainment</li>
                   <li>Share the official download links with others</li>
                 </ul>
+<<<<<<< HEAD
                 <p className="font-semibold text-gray-900 mt-4">You may NOT:</p>
                 <ul className="list-disc list-inside space-y-2 text-gray-600">
+=======
+<<<<<<< HEAD
+                <p className="font-semibold text-gray-900 mt-4">You may NOT:</p>
+                <ul className="list-disc list-inside space-y-2 text-gray-600">
+=======
+<<<<<<< HEAD
+                <p className="font-semibold text-gray-900 mt-4">You may NOT:</p>
+                <ul className="list-disc list-inside space-y-2 text-gray-600">
+=======
+                <p className="font-semibold text-white mt-4">You may NOT:</p>
+                <ul className="list-disc list-inside space-y-2 text-slate-400">
+>>>>>>> 347525115ef20ad50f759c5ab2adadfaf93ee0be
+>>>>>>> 664a809628480733e7cfa0e359849c4a7c5472a5
+>>>>>>> b5007b06da44a0a711da5b3998b04d422ac95fb9
                   <li>Redistribute, sell, or lease the Game</li>
                   <li>Reverse engineer, decompile, or disassemble the Game</li>
                   <li>Remove or modify copyright notices or branding</li>
@@ -65,10 +161,29 @@ export default function Terms() {
             </section>
 
             <section>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 664a809628480733e7cfa0e359849c4a7c5472a5
+>>>>>>> b5007b06da44a0a711da5b3998b04d422ac95fb9
               <h2 className="text-3xl font-bold text-gray-900 mb-4">User Responsibilities</h2>
               <div className="space-y-4 text-gray-700 leading-relaxed">
                 <p>As a user of Flying Chess AI, you agree to:</p>
                 <ul className="list-disc list-inside space-y-2 text-gray-600">
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+              <h2 className="text-3xl font-bold text-white mb-4">User Responsibilities</h2>
+              <div className="space-y-4 text-slate-300 leading-relaxed">
+                <p>As a user of Flying Chess AI, you agree to:</p>
+                <ul className="list-disc list-inside space-y-2 text-slate-400">
+>>>>>>> 347525115ef20ad50f759c5ab2adadfaf93ee0be
+>>>>>>> 664a809628480733e7cfa0e359849c4a7c5472a5
+>>>>>>> b5007b06da44a0a711da5b3998b04d422ac95fb9
                   <li>Use the Game in compliance with all applicable laws and regulations</li>
                   <li>Not use the Game to harass, abuse, or harm others</li>
                   <li>Not attempt to gain unauthorized access to our systems</li>
@@ -80,8 +195,23 @@ export default function Terms() {
             </section>
 
             <section>
+<<<<<<< HEAD
               <h2 className="text-3xl font-bold text-gray-900 mb-4">Intellectual Property Rights</h2>
               <div className="space-y-4 text-gray-700 leading-relaxed">
+=======
+<<<<<<< HEAD
+              <h2 className="text-3xl font-bold text-gray-900 mb-4">Intellectual Property Rights</h2>
+              <div className="space-y-4 text-gray-700 leading-relaxed">
+=======
+<<<<<<< HEAD
+              <h2 className="text-3xl font-bold text-gray-900 mb-4">Intellectual Property Rights</h2>
+              <div className="space-y-4 text-gray-700 leading-relaxed">
+=======
+              <h2 className="text-3xl font-bold text-white mb-4">Intellectual Property Rights</h2>
+              <div className="space-y-4 text-slate-300 leading-relaxed">
+>>>>>>> 347525115ef20ad50f759c5ab2adadfaf93ee0be
+>>>>>>> 664a809628480733e7cfa0e359849c4a7c5472a5
+>>>>>>> b5007b06da44a0a711da5b3998b04d422ac95fb9
                 <p>
                   All content in Flying Chess AI, including but not limited to graphics, code, design,
                   gameplay mechanics, AI algorithms, logos, and trademarks, are owned by Flying Chess AI
@@ -96,12 +226,33 @@ export default function Terms() {
             </section>
 
             <section>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 664a809628480733e7cfa0e359849c4a7c5472a5
+>>>>>>> b5007b06da44a0a711da5b3998b04d422ac95fb9
               <h2 className="text-3xl font-bold text-gray-900 mb-4">Downloads & Installation</h2>
               <div className="space-y-4 text-gray-700 leading-relaxed">
                 <p>
                   Flying Chess AI is available for download on multiple platforms. By downloading the Game:
                 </p>
                 <ul className="list-disc list-inside space-y-2 text-gray-600">
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+              <h2 className="text-3xl font-bold text-white mb-4">Downloads & Installation</h2>
+              <div className="space-y-4 text-slate-300 leading-relaxed">
+                <p>
+                  Flying Chess AI is available for download on multiple platforms. By downloading the Game:
+                </p>
+                <ul className="list-disc list-inside space-y-2 text-slate-400">
+>>>>>>> 347525115ef20ad50f759c5ab2adadfaf93ee0be
+>>>>>>> 664a809628480733e7cfa0e359849c4a7c5472a5
+>>>>>>> b5007b06da44a0a711da5b3998b04d422ac95fb9
                   <li>You confirm you meet the minimum system requirements</li>
                   <li>You accept that downloads are provided "as is"</li>
                   <li>You are responsible for any data charges from your provider</li>
@@ -112,13 +263,40 @@ export default function Terms() {
             </section>
 
             <section>
+<<<<<<< HEAD
               <h2 className="text-3xl font-bold text-gray-900 mb-4">Disclaimer of Warranties</h2>
               <div className="space-y-4 text-gray-700 leading-relaxed">
+=======
+<<<<<<< HEAD
+              <h2 className="text-3xl font-bold text-gray-900 mb-4">Disclaimer of Warranties</h2>
+              <div className="space-y-4 text-gray-700 leading-relaxed">
+=======
+<<<<<<< HEAD
+              <h2 className="text-3xl font-bold text-gray-900 mb-4">Disclaimer of Warranties</h2>
+              <div className="space-y-4 text-gray-700 leading-relaxed">
+=======
+              <h2 className="text-3xl font-bold text-white mb-4">Disclaimer of Warranties</h2>
+              <div className="space-y-4 text-slate-300 leading-relaxed">
+>>>>>>> 347525115ef20ad50f759c5ab2adadfaf93ee0be
+>>>>>>> 664a809628480733e7cfa0e359849c4a7c5472a5
+>>>>>>> b5007b06da44a0a711da5b3998b04d422ac95fb9
                 <p>
                   Flying Chess AI is provided "AS IS" and "AS AVAILABLE" without warranties of any kind,
                   either express or implied, including but not limited to:
                 </p>
+<<<<<<< HEAD
                 <ul className="list-disc list-inside space-y-2 text-gray-600">
+=======
+<<<<<<< HEAD
+                <ul className="list-disc list-inside space-y-2 text-gray-600">
+=======
+<<<<<<< HEAD
+                <ul className="list-disc list-inside space-y-2 text-gray-600">
+=======
+                <ul className="list-disc list-inside space-y-2 text-slate-400">
+>>>>>>> 347525115ef20ad50f759c5ab2adadfaf93ee0be
+>>>>>>> 664a809628480733e7cfa0e359849c4a7c5472a5
+>>>>>>> b5007b06da44a0a711da5b3998b04d422ac95fb9
                   <li>Implied warranties of merchantability</li>
                   <li>Fitness for a particular purpose</li>
                   <li>Non-infringement</li>
@@ -132,8 +310,23 @@ export default function Terms() {
             </section>
 
             <section>
+<<<<<<< HEAD
               <h2 className="text-3xl font-bold text-gray-900 mb-4">Limitation of Liability</h2>
               <p className="text-gray-700 leading-relaxed">
+=======
+<<<<<<< HEAD
+              <h2 className="text-3xl font-bold text-gray-900 mb-4">Limitation of Liability</h2>
+              <p className="text-gray-700 leading-relaxed">
+=======
+<<<<<<< HEAD
+              <h2 className="text-3xl font-bold text-gray-900 mb-4">Limitation of Liability</h2>
+              <p className="text-gray-700 leading-relaxed">
+=======
+              <h2 className="text-3xl font-bold text-white mb-4">Limitation of Liability</h2>
+              <p className="text-slate-300 leading-relaxed">
+>>>>>>> 347525115ef20ad50f759c5ab2adadfaf93ee0be
+>>>>>>> 664a809628480733e7cfa0e359849c4a7c5472a5
+>>>>>>> b5007b06da44a0a711da5b3998b04d422ac95fb9
                 To the maximum extent permitted by law, Flying Chess AI and its affiliates shall not be
                 liable for any indirect, incidental, special, consequential, or punitive damages, or any
                 loss of profits or revenues, whether incurred directly or indirectly, or any loss of data,
@@ -142,13 +335,40 @@ export default function Terms() {
             </section>
 
             <section>
+<<<<<<< HEAD
               <h2 className="text-3xl font-bold text-gray-900 mb-4">Account Termination</h2>
               <div className="space-y-4 text-gray-700 leading-relaxed">
+=======
+<<<<<<< HEAD
+              <h2 className="text-3xl font-bold text-gray-900 mb-4">Account Termination</h2>
+              <div className="space-y-4 text-gray-700 leading-relaxed">
+=======
+<<<<<<< HEAD
+              <h2 className="text-3xl font-bold text-gray-900 mb-4">Account Termination</h2>
+              <div className="space-y-4 text-gray-700 leading-relaxed">
+=======
+              <h2 className="text-3xl font-bold text-white mb-4">Account Termination</h2>
+              <div className="space-y-4 text-slate-300 leading-relaxed">
+>>>>>>> 347525115ef20ad50f759c5ab2adadfaf93ee0be
+>>>>>>> 664a809628480733e7cfa0e359849c4a7c5472a5
+>>>>>>> b5007b06da44a0a711da5b3998b04d422ac95fb9
                 <p>
                   We reserve the right to suspend or terminate your access to Flying Chess AI at any time,
                   with or without notice, for any reason, including but not limited to:
                 </p>
+<<<<<<< HEAD
                 <ul className="list-disc list-inside space-y-2 text-gray-600">
+=======
+<<<<<<< HEAD
+                <ul className="list-disc list-inside space-y-2 text-gray-600">
+=======
+<<<<<<< HEAD
+                <ul className="list-disc list-inside space-y-2 text-gray-600">
+=======
+                <ul className="list-disc list-inside space-y-2 text-slate-400">
+>>>>>>> 347525115ef20ad50f759c5ab2adadfaf93ee0be
+>>>>>>> 664a809628480733e7cfa0e359849c4a7c5472a5
+>>>>>>> b5007b06da44a0a711da5b3998b04d422ac95fb9
                   <li>Violation of these Terms and Conditions</li>
                   <li>Fraudulent or illegal activity</li>
                   <li>Harassment or abuse of other users</li>
@@ -158,8 +378,23 @@ export default function Terms() {
             </section>
 
             <section>
+<<<<<<< HEAD
               <h2 className="text-3xl font-bold text-gray-900 mb-4">Updates & Modifications</h2>
               <p className="text-gray-700 leading-relaxed">
+=======
+<<<<<<< HEAD
+              <h2 className="text-3xl font-bold text-gray-900 mb-4">Updates & Modifications</h2>
+              <p className="text-gray-700 leading-relaxed">
+=======
+<<<<<<< HEAD
+              <h2 className="text-3xl font-bold text-gray-900 mb-4">Updates & Modifications</h2>
+              <p className="text-gray-700 leading-relaxed">
+=======
+              <h2 className="text-3xl font-bold text-white mb-4">Updates & Modifications</h2>
+              <p className="text-slate-300 leading-relaxed">
+>>>>>>> 347525115ef20ad50f759c5ab2adadfaf93ee0be
+>>>>>>> 664a809628480733e7cfa0e359849c4a7c5472a5
+>>>>>>> b5007b06da44a0a711da5b3998b04d422ac95fb9
                 We reserve the right to modify, update, or discontinue Flying Chess AI or any part of it
                 at any time. We may also update these Terms and Conditions periodically. Continued use of
                 the Game after changes constitutes acceptance of the updated terms. We will notify users
@@ -168,8 +403,23 @@ export default function Terms() {
             </section>
 
             <section>
+<<<<<<< HEAD
               <h2 className="text-3xl font-bold text-gray-900 mb-4">Governing Law</h2>
               <p className="text-gray-700 leading-relaxed">
+=======
+<<<<<<< HEAD
+              <h2 className="text-3xl font-bold text-gray-900 mb-4">Governing Law</h2>
+              <p className="text-gray-700 leading-relaxed">
+=======
+<<<<<<< HEAD
+              <h2 className="text-3xl font-bold text-gray-900 mb-4">Governing Law</h2>
+              <p className="text-gray-700 leading-relaxed">
+=======
+              <h2 className="text-3xl font-bold text-white mb-4">Governing Law</h2>
+              <p className="text-slate-300 leading-relaxed">
+>>>>>>> 347525115ef20ad50f759c5ab2adadfaf93ee0be
+>>>>>>> 664a809628480733e7cfa0e359849c4a7c5472a5
+>>>>>>> b5007b06da44a0a711da5b3998b04d422ac95fb9
                 These Terms and Conditions shall be governed by and construed in accordance with applicable
                 laws, without regard to conflict of law principles. Any disputes arising from these terms
                 or your use of the Game shall be resolved through binding arbitration or in the appropriate
@@ -178,14 +428,36 @@ export default function Terms() {
             </section>
 
             <section>
+<<<<<<< HEAD
               <h2 className="text-3xl font-bold text-gray-900 mb-4">Severability</h2>
               <p className="text-gray-700 leading-relaxed">
+=======
+<<<<<<< HEAD
+              <h2 className="text-3xl font-bold text-gray-900 mb-4">Severability</h2>
+              <p className="text-gray-700 leading-relaxed">
+=======
+<<<<<<< HEAD
+              <h2 className="text-3xl font-bold text-gray-900 mb-4">Severability</h2>
+              <p className="text-gray-700 leading-relaxed">
+=======
+              <h2 className="text-3xl font-bold text-white mb-4">Severability</h2>
+              <p className="text-slate-300 leading-relaxed">
+>>>>>>> 347525115ef20ad50f759c5ab2adadfaf93ee0be
+>>>>>>> 664a809628480733e7cfa0e359849c4a7c5472a5
+>>>>>>> b5007b06da44a0a711da5b3998b04d422ac95fb9
                 If any provision of these Terms and Conditions is found to be invalid or unenforceable,
                 the remaining provisions shall continue in full force and effect.
               </p>
             </section>
 
             <section>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 664a809628480733e7cfa0e359849c4a7c5472a5
+>>>>>>> b5007b06da44a0a711da5b3998b04d422ac95fb9
               <h2 className="text-3xl font-bold text-gray-900 mb-4">Contact Information</h2>
               <p className="text-gray-700 leading-relaxed">
                 If you have questions about these Terms and Conditions, please contact us:
@@ -198,6 +470,26 @@ export default function Terms() {
 
             <section className="border-t border-gray-200 pt-8">
               <p className="text-gray-600 text-sm leading-relaxed">
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+              <h2 className="text-3xl font-bold text-white mb-4">Contact Information</h2>
+              <p className="text-slate-300 leading-relaxed">
+                If you have questions about these Terms and Conditions, please contact us:
+              </p>
+              <div className="mt-4 space-y-2 text-slate-400">
+                <p>Email: <a href="mailto:legal@flyingchessai.com" className="text-cyan-400 hover:underline">legal@flyingchessai.com</a></p>
+                <p>Support: <a href="mailto:contact@flyingchessai.com" className="text-cyan-400 hover:underline">contact@flyingchessai.com</a></p>
+              </div>
+            </section>
+
+            <section className="border-t border-slate-700 pt-8">
+              <p className="text-slate-400 text-sm leading-relaxed">
+>>>>>>> 347525115ef20ad50f759c5ab2adadfaf93ee0be
+>>>>>>> 664a809628480733e7cfa0e359849c4a7c5472a5
+>>>>>>> b5007b06da44a0a711da5b3998b04d422ac95fb9
                 By downloading, installing, or using Flying Chess AI, you acknowledge that you have read,
                 understood, and agree to be bound by these Terms and Conditions and our Privacy Policy.
               </p>
