@@ -33,7 +33,15 @@ export default function About() {
         description="Learn about Flying Chess AI's mission to create educational, fun, and privacy-safe AI games. We use ethical AI and prioritize data security."
       />
 
+<<<<<<< HEAD
       <section className="py-20 px-4 bg-gradient-to-br from-blue-50 via-white to-indigo-50">
+=======
+<<<<<<< HEAD
+      <section className="py-20 px-4 bg-gradient-to-br from-blue-50 via-white to-indigo-50">
+=======
+      <section className="py-20 px-4">
+>>>>>>> 347525115ef20ad50f759c5ab2adadfaf93ee0be
+>>>>>>> 664a809628480733e7cfa0e359849c4a7c5472a5
         <div className="max-w-4xl mx-auto">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -41,10 +49,23 @@ export default function About() {
             transition={{ duration: 0.6 }}
             className="text-center mb-16"
           >
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 664a809628480733e7cfa0e359849c4a7c5472a5
             <h1 className="text-5xl sm:text-6xl font-bold text-gray-900 mb-6">
               About <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600">Flying Chess AI</span>
             </h1>
             <p className="text-xl text-gray-600 leading-relaxed">
+<<<<<<< HEAD
+=======
+=======
+            <h1 className="text-5xl sm:text-6xl font-bold text-white mb-6">
+              About <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-400">Flying Chess AI</span>
+            </h1>
+            <p className="text-xl text-slate-300 leading-relaxed">
+>>>>>>> 347525115ef20ad50f759c5ab2adadfaf93ee0be
+>>>>>>> 664a809628480733e7cfa0e359849c4a7c5472a5
               Pioneering the future of strategic gaming through artificial intelligence
             </p>
           </motion.div>
@@ -53,10 +74,23 @@ export default function About() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 664a809628480733e7cfa0e359849c4a7c5472a5
             className="bg-white border-2 border-gray-200 rounded-2xl p-8 sm:p-12 mb-12 shadow-lg"
           >
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Our Story</h2>
             <div className="space-y-4 text-gray-700 leading-relaxed">
+<<<<<<< HEAD
+=======
+=======
+            className="bg-slate-800/30 backdrop-blur-sm border border-slate-700 rounded-2xl p-8 sm:p-12 mb-12"
+          >
+            <h2 className="text-3xl font-bold text-white mb-6">Our Story</h2>
+            <div className="space-y-4 text-slate-300 leading-relaxed">
+>>>>>>> 347525115ef20ad50f759c5ab2adadfaf93ee0be
+>>>>>>> 664a809628480733e7cfa0e359849c4a7c5472a5
               <p>
                 Flying Chess AI was born from a simple vision: to reimagine classic board games
                 with cutting-edge artificial intelligence, making them more accessible, engaging,
@@ -84,6 +118,10 @@ export default function About() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 0.3 + index * 0.1 }}
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 664a809628480733e7cfa0e359849c4a7c5472a5
                 className="bg-white border-2 border-gray-200 rounded-2xl p-8 hover:border-blue-500 hover:shadow-lg transition-all"
               >
                 <div className="inline-flex items-center justify-center w-12 h-12 bg-blue-100 rounded-xl mb-4">
@@ -91,6 +129,18 @@ export default function About() {
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-3">{value.title}</h3>
                 <p className="text-gray-600 leading-relaxed">{value.description}</p>
+<<<<<<< HEAD
+=======
+=======
+                className="bg-slate-800/30 backdrop-blur-sm border border-slate-700 rounded-2xl p-8"
+              >
+                <div className="inline-flex items-center justify-center w-12 h-12 bg-cyan-500/10 rounded-xl mb-4">
+                  <value.icon className="w-6 h-6 text-cyan-400" />
+                </div>
+                <h3 className="text-2xl font-bold text-white mb-3">{value.title}</h3>
+                <p className="text-slate-400 leading-relaxed">{value.description}</p>
+>>>>>>> 347525115ef20ad50f759c5ab2adadfaf93ee0be
+>>>>>>> 664a809628480733e7cfa0e359849c4a7c5472a5
               </motion.div>
             ))}
           </div>
@@ -99,15 +149,36 @@ export default function About() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.7 }}
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 664a809628480733e7cfa0e359849c4a7c5472a5
             className="bg-white border-2 border-gray-200 rounded-2xl p-8 sm:p-12 shadow-lg"
           >
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Privacy & Security</h2>
             <div className="space-y-4 text-gray-700 leading-relaxed">
+<<<<<<< HEAD
+=======
+=======
+            className="bg-slate-800/30 backdrop-blur-sm border border-slate-700 rounded-2xl p-8 sm:p-12"
+          >
+            <h2 className="text-3xl font-bold text-white mb-6">Privacy & Security</h2>
+            <div className="space-y-4 text-slate-300 leading-relaxed">
+>>>>>>> 347525115ef20ad50f759c5ab2adadfaf93ee0be
+>>>>>>> 664a809628480733e7cfa0e359849c4a7c5472a5
               <p>
                 At Flying Chess AI, your privacy is paramount. We use ethical AI practices and
                 implement robust security measures to ensure your data is always protected.
               </p>
+<<<<<<< HEAD
               <ul className="list-disc list-inside space-y-2 text-gray-600">
+=======
+<<<<<<< HEAD
+              <ul className="list-disc list-inside space-y-2 text-gray-600">
+=======
+              <ul className="list-disc list-inside space-y-2 text-slate-400">
+>>>>>>> 347525115ef20ad50f759c5ab2adadfaf93ee0be
+>>>>>>> 664a809628480733e7cfa0e359849c4a7c5472a5
                 <li>All downloads are served over HTTPS for maximum security</li>
                 <li>We never sell or share your personal data with third parties</li>
                 <li>Minimal data collection - only what's essential for gameplay</li>
