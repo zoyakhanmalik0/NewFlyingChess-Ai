@@ -9,7 +9,11 @@ export default function Privacy() {
         description="Flying Chess AI Privacy Policy. Learn how we protect your data and respect your privacy. GDPR-compliant and transparent."
       />
 
+<<<<<<< HEAD
       <section className="py-20 px-4 bg-gradient-to-br from-blue-50 via-white to-indigo-50">
+=======
+      <section className="py-20 px-4">
+>>>>>>> 347525115ef20ad50f759c5ab2adadfaf93ee0be
         <div className="max-w-4xl mx-auto">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -17,10 +21,17 @@ export default function Privacy() {
             transition={{ duration: 0.6 }}
             className="text-center mb-16"
           >
+<<<<<<< HEAD
             <h1 className="text-5xl sm:text-6xl font-bold text-gray-900 mb-6">
               Privacy Policy
             </h1>
             <p className="text-xl text-gray-600">
+=======
+            <h1 className="text-5xl sm:text-6xl font-bold text-white mb-6">
+              Privacy Policy
+            </h1>
+            <p className="text-xl text-slate-300">
+>>>>>>> 347525115ef20ad50f759c5ab2adadfaf93ee0be
               Last Updated: {new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}
             </p>
           </motion.div>
@@ -29,11 +40,19 @@ export default function Privacy() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
+<<<<<<< HEAD
             className="bg-white border-2 border-gray-200 rounded-2xl p-8 sm:p-12 space-y-8 shadow-lg"
           >
             <section>
               <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Commitment to Privacy</h2>
               <p className="text-gray-700 leading-relaxed">
+=======
+            className="bg-slate-800/30 backdrop-blur-sm border border-slate-700 rounded-2xl p-8 sm:p-12 space-y-8"
+          >
+            <section>
+              <h2 className="text-3xl font-bold text-white mb-4">Our Commitment to Privacy</h2>
+              <p className="text-slate-300 leading-relaxed">
+>>>>>>> 347525115ef20ad50f759c5ab2adadfaf93ee0be
                 At Flying Chess AI, we take your privacy seriously. This Privacy Policy explains how we
                 collect, use, and protect your information when you use our game and services. We are
                 committed to transparency and maintaining the highest standards of data protection.
@@ -41,19 +60,32 @@ export default function Privacy() {
             </section>
 
             <section>
+<<<<<<< HEAD
               <h2 className="text-3xl font-bold text-gray-900 mb-4">Information We Collect</h2>
               <div className="space-y-4 text-slate-300 leading-relaxed">
                 <div>
                   <h3 className="text-xl font-semibold text-gray-900 mb-2">Information You Provide</h3>
                   <ul className="list-disc list-inside space-y-2 text-gray-600">
+=======
+              <h2 className="text-3xl font-bold text-white mb-4">Information We Collect</h2>
+              <div className="space-y-4 text-slate-300 leading-relaxed">
+                <div>
+                  <h3 className="text-xl font-semibold text-white mb-2">Information You Provide</h3>
+                  <ul className="list-disc list-inside space-y-2 text-slate-400">
+>>>>>>> 347525115ef20ad50f759c5ab2adadfaf93ee0be
                     <li>Account information (username, email) if you create an account</li>
                     <li>Contact information when you reach out to support</li>
                     <li>Feedback and survey responses</li>
                   </ul>
                 </div>
                 <div>
+<<<<<<< HEAD
                   <h3 className="text-xl font-semibold text-gray-900 mb-2">Automatically Collected Information</h3>
                   <ul className="list-disc list-inside space-y-2 text-gray-600">
+=======
+                  <h3 className="text-xl font-semibold text-white mb-2">Automatically Collected Information</h3>
+                  <ul className="list-disc list-inside space-y-2 text-slate-400">
+>>>>>>> 347525115ef20ad50f759c5ab2adadfaf93ee0be
                     <li>Game usage statistics (anonymized)</li>
                     <li>Device information and operating system</li>
                     <li>Technical data for bug fixes and improvements</li>
@@ -63,8 +95,13 @@ export default function Privacy() {
             </section>
 
             <section>
+<<<<<<< HEAD
               <h2 className="text-3xl font-bold text-gray-900 mb-4">How We Use Your Information</h2>
               <ul className="list-disc list-inside space-y-2 text-gray-700">
+=======
+              <h2 className="text-3xl font-bold text-white mb-4">How We Use Your Information</h2>
+              <ul className="list-disc list-inside space-y-2 text-slate-300">
+>>>>>>> 347525115ef20ad50f759c5ab2adadfaf93ee0be
                 <li>To provide and improve our gaming services</li>
                 <li>To personalize your gaming experience</li>
                 <li>To respond to your inquiries and provide customer support</li>
@@ -74,12 +111,20 @@ export default function Privacy() {
             </section>
 
             <section>
+<<<<<<< HEAD
               <h2 className="text-3xl font-bold text-gray-900 mb-4">Data Protection & Security</h2>
+=======
+              <h2 className="text-3xl font-bold text-white mb-4">Data Protection & Security</h2>
+>>>>>>> 347525115ef20ad50f759c5ab2adadfaf93ee0be
               <div className="space-y-4 text-slate-300 leading-relaxed">
                 <p>
                   We implement robust security measures to protect your data:
                 </p>
+<<<<<<< HEAD
                 <ul className="list-disc list-inside space-y-2 text-gray-600">
+=======
+                <ul className="list-disc list-inside space-y-2 text-slate-400">
+>>>>>>> 347525115ef20ad50f759c5ab2adadfaf93ee0be
                   <li>All downloads are served over HTTPS encryption</li>
                   <li>Data is encrypted both in transit and at rest</li>
                   <li>Regular security audits and vulnerability assessments</li>
@@ -90,11 +135,19 @@ export default function Privacy() {
             </section>
 
             <section>
+<<<<<<< HEAD
               <h2 className="text-3xl font-bold text-gray-900 mb-4">Your Data Rights</h2>
               <p className="text-slate-300 leading-relaxed mb-4">
                 We respect your rights under GDPR and other privacy regulations. You have the right to:
               </p>
               <ul className="list-disc list-inside space-y-2 text-gray-600">
+=======
+              <h2 className="text-3xl font-bold text-white mb-4">Your Data Rights</h2>
+              <p className="text-slate-300 leading-relaxed mb-4">
+                We respect your rights under GDPR and other privacy regulations. You have the right to:
+              </p>
+              <ul className="list-disc list-inside space-y-2 text-slate-400">
+>>>>>>> 347525115ef20ad50f759c5ab2adadfaf93ee0be
                 <li>Access your personal data</li>
                 <li>Correct inaccurate or incomplete data</li>
                 <li>Request deletion of your data</li>
@@ -104,19 +157,31 @@ export default function Privacy() {
               </ul>
               <p className="text-slate-300 leading-relaxed mt-4">
                 To exercise any of these rights, please contact us at{' '}
+<<<<<<< HEAD
                 <a href="mailto:privacy@flyingchessai.com" className="text-blue-600 hover:underline">
+=======
+                <a href="mailto:privacy@flyingchessai.com" className="text-cyan-400 hover:underline">
+>>>>>>> 347525115ef20ad50f759c5ab2adadfaf93ee0be
                   privacy@flyingchessai.com
                 </a>
               </p>
             </section>
 
             <section>
+<<<<<<< HEAD
               <h2 className="text-3xl font-bold text-gray-900 mb-4">Cookies & Tracking</h2>
+=======
+              <h2 className="text-3xl font-bold text-white mb-4">Cookies & Tracking</h2>
+>>>>>>> 347525115ef20ad50f759c5ab2adadfaf93ee0be
               <div className="space-y-4 text-slate-300 leading-relaxed">
                 <p>
                   We use minimal cookies to enhance your experience:
                 </p>
+<<<<<<< HEAD
                 <ul className="list-disc list-inside space-y-2 text-gray-600">
+=======
+                <ul className="list-disc list-inside space-y-2 text-slate-400">
+>>>>>>> 347525115ef20ad50f759c5ab2adadfaf93ee0be
                   <li>Essential cookies for basic functionality</li>
                   <li>Preference cookies to remember your settings</li>
                   <li>Analytics cookies (with your consent) to improve our service</li>
@@ -129,15 +194,25 @@ export default function Privacy() {
             </section>
 
             <section>
+<<<<<<< HEAD
               <h2 className="text-3xl font-bold text-gray-900 mb-4">Data Sharing & Third Parties</h2>
               <div className="space-y-4 text-slate-300 leading-relaxed">
                 <p className="font-semibold text-gray-900">
+=======
+              <h2 className="text-3xl font-bold text-white mb-4">Data Sharing & Third Parties</h2>
+              <div className="space-y-4 text-slate-300 leading-relaxed">
+                <p className="font-semibold text-white">
+>>>>>>> 347525115ef20ad50f759c5ab2adadfaf93ee0be
                   We NEVER sell your personal data to third parties.
                 </p>
                 <p>
                   We may share limited data with:
                 </p>
+<<<<<<< HEAD
                 <ul className="list-disc list-inside space-y-2 text-gray-600">
+=======
+                <ul className="list-disc list-inside space-y-2 text-slate-400">
+>>>>>>> 347525115ef20ad50f759c5ab2adadfaf93ee0be
                   <li>Service providers who help us operate the game (under strict confidentiality agreements)</li>
                   <li>Legal authorities when required by law</li>
                   <li>Analytics services (anonymized data only)</li>
@@ -146,8 +221,13 @@ export default function Privacy() {
             </section>
 
             <section>
+<<<<<<< HEAD
               <h2 className="text-3xl font-bold text-gray-900 mb-4">Children's Privacy</h2>
               <p className="text-gray-700 leading-relaxed">
+=======
+              <h2 className="text-3xl font-bold text-white mb-4">Children's Privacy</h2>
+              <p className="text-slate-300 leading-relaxed">
+>>>>>>> 347525115ef20ad50f759c5ab2adadfaf93ee0be
                 Flying Chess AI is suitable for all ages. We do not knowingly collect personal information
                 from children under 13 without parental consent. If you believe we have collected such
                 information, please contact us immediately.
@@ -155,8 +235,13 @@ export default function Privacy() {
             </section>
 
             <section>
+<<<<<<< HEAD
               <h2 className="text-3xl font-bold text-gray-900 mb-4">Changes to This Policy</h2>
               <p className="text-gray-700 leading-relaxed">
+=======
+              <h2 className="text-3xl font-bold text-white mb-4">Changes to This Policy</h2>
+              <p className="text-slate-300 leading-relaxed">
+>>>>>>> 347525115ef20ad50f759c5ab2adadfaf93ee0be
                 We may update this Privacy Policy periodically. We will notify you of significant changes
                 via email or through the game. Your continued use after changes constitutes acceptance
                 of the updated policy.
@@ -164,11 +249,19 @@ export default function Privacy() {
             </section>
 
             <section>
+<<<<<<< HEAD
               <h2 className="text-3xl font-bold text-gray-900 mb-4">Contact Us</h2>
               <p className="text-gray-700 leading-relaxed">
                 If you have questions about this Privacy Policy or our data practices, please contact us:
               </p>
               <div className="mt-4 space-y-2 text-gray-600">
+=======
+              <h2 className="text-3xl font-bold text-white mb-4">Contact Us</h2>
+              <p className="text-slate-300 leading-relaxed">
+                If you have questions about this Privacy Policy or our data practices, please contact us:
+              </p>
+              <div className="mt-4 space-y-2 text-slate-400">
+>>>>>>> 347525115ef20ad50f759c5ab2adadfaf93ee0be
                 <p>Email: <a href="mailto:privacy@flyingchessai.com" className="text-cyan-400 hover:underline">privacy@flyingchessai.com</a></p>
                 <p>Privacy Officer: Flying Chess AI Privacy Team</p>
               </div>

@@ -70,8 +70,14 @@ export default function Home() {
     <>
       <SEO />
 
+<<<<<<< HEAD
 <section className="relative flex flex-col items-center justify-start pt-28 pb-20 px-4 overflow-hidden bg-gradient-to-br from-blue-50 via-white to-indigo-50">
   <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-blue-100 via-transparent to-transparent opacity-50" />
+=======
+{/* HERO SECTION */}
+<section className="relative flex flex-col items-center justify-start pt-28 pb-16 px-4 overflow-hidden">
+  <div className="absolute inset-0 bg-gradient-to-b from-cyan-500/10 to-transparent" />
+>>>>>>> 347525115ef20ad50f759c5ab2adadfaf93ee0be
 
   <div className="max-w-4xl mx-auto text-center relative z-10">
     <motion.div
@@ -79,6 +85,7 @@ export default function Home() {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8 }}
     >
+<<<<<<< HEAD
       <h1 className="text-5xl sm:text-6xl font-bold text-gray-900 mb-6 leading-tight">
         <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600">
           Flying Chess
@@ -89,6 +96,14 @@ export default function Home() {
 
       <p className="text-lg sm:text-xl text-gray-600 mb-10">
         Choose your game and start playing instantly across any platform.
+=======
+      <h1 className="text-5xl sm:text-6xl font-bold text-white mb-6">
+        Download Flying Chess AI
+      </h1>
+
+      <p className="text-lg sm:text-xl text-slate-300 mb-10">
+        Choose your platform to start playing instantly.
+>>>>>>> 347525115ef20ad50f759c5ab2adadfaf93ee0be
       </p>
 
       {/* STACKED DOWNLOAD BUTTONS */}
@@ -107,6 +122,7 @@ export default function Home() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: index * 0.1 }}
+<<<<<<< HEAD
             className="group flex items-center justify-center w-64 px-6 py-3 
                        bg-gradient-to-r from-blue-500 to-indigo-500 text-white font-medium 
                        rounded-lg shadow-md hover:from-blue-600 hover:to-indigo-600 
@@ -114,6 +130,12 @@ export default function Home() {
           >
             <Download className="inline-block w-5 h-5 mr-2 text-white group-hover:scale-110 transition-transform" />
             {item.platform}
+=======
+            className="group flex items-center justify-center w-72 px-6 py-3 bg-slate-800/50 backdrop-blur-sm border border-slate-700 rounded-lg hover:bg-cyan-500/20 hover:border-cyan-500 transition-all"
+          >
+            <Download className="inline-block w-5 h-5 mr-2 group-hover:text-cyan-400 transition-colors" />
+            <span className="text-white font-medium">{item.platform}</span>
+>>>>>>> 347525115ef20ad50f759c5ab2adadfaf93ee0be
           </motion.a>
         ))}
       </div>
@@ -123,7 +145,12 @@ export default function Home() {
 
 
 
+<<<<<<< HEAD
       <section className="py-20 px-4 bg-white">
+=======
+      {/* FEATURES SECTION */}
+      <section className="py-20 px-4">
+>>>>>>> 347525115ef20ad50f759c5ab2adadfaf93ee0be
         <div className="max-w-7xl mx-auto">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -132,10 +159,17 @@ export default function Home() {
             transition={{ duration: 0.6 }}
             className="text-center mb-16"
           >
+<<<<<<< HEAD
             <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-4">
               Why Choose Flying Chess AI?
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+=======
+            <h2 className="text-4xl sm:text-5xl font-bold text-white mb-4">
+              Why Choose Flying Chess AI?
+            </h2>
+            <p className="text-xl text-slate-400 max-w-2xl mx-auto">
+>>>>>>> 347525115ef20ad50f759c5ab2adadfaf93ee0be
               Cutting-edge features designed for the ultimate gaming experience
             </p>
           </motion.div>
@@ -148,6 +182,7 @@ export default function Home() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
+<<<<<<< HEAD
                 className="group relative bg-white border-2 border-gray-200 rounded-2xl p-8 hover:border-blue-500 hover:shadow-xl transition-all"
               >
                 <div className="absolute inset-0 bg-gradient-to-br from-blue-50 to-transparent rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity" />
@@ -162,6 +197,22 @@ export default function Home() {
                   </h3>
 
                   <p className="text-gray-600 leading-relaxed">
+=======
+                className="group relative bg-slate-800/30 backdrop-blur-sm border border-slate-700 rounded-2xl p-8 hover:bg-slate-800/50 hover:border-cyan-500/50 transition-all"
+              >
+                <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/5 to-transparent rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity" />
+
+                <div className="relative z-10">
+                  <div className="inline-flex items-center justify-center w-14 h-14 bg-cyan-500/10 rounded-xl mb-6 group-hover:bg-cyan-500/20 transition-colors">
+                    <feature.icon className="w-7 h-7 text-cyan-400" />
+                  </div>
+
+                  <h3 className="text-2xl font-bold text-white mb-3">
+                    {feature.title}
+                  </h3>
+
+                  <p className="text-slate-400 leading-relaxed">
+>>>>>>> 347525115ef20ad50f759c5ab2adadfaf93ee0be
                     {feature.description}
                   </p>
                 </div>
@@ -171,7 +222,12 @@ export default function Home() {
         </div>
       </section>
 
+<<<<<<< HEAD
       <section className="py-20 px-4 bg-gray-50">
+=======
+      {/* TESTIMONIALS SECTION */}
+      <section className="py-20 px-4 bg-slate-900/50">
+>>>>>>> 347525115ef20ad50f759c5ab2adadfaf93ee0be
         <div className="max-w-6xl mx-auto">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -180,10 +236,17 @@ export default function Home() {
             transition={{ duration: 0.6 }}
             className="text-center mb-16"
           >
+<<<<<<< HEAD
             <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-4">
               What Players Are Saying
             </h2>
             <p className="text-xl text-gray-600">
+=======
+            <h2 className="text-4xl sm:text-5xl font-bold text-white mb-4">
+              What Players Are Saying
+            </h2>
+            <p className="text-xl text-slate-400">
+>>>>>>> 347525115ef20ad50f759c5ab2adadfaf93ee0be
               Join thousands of satisfied players worldwide
             </p>
           </motion.div>
@@ -196,13 +259,21 @@ export default function Home() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
+<<<<<<< HEAD
                 className="bg-white border-2 border-gray-200 rounded-2xl p-8 hover:border-blue-300 hover:shadow-lg transition-all"
+=======
+                className="bg-slate-800/30 backdrop-blur-sm border border-slate-700 rounded-2xl p-8"
+>>>>>>> 347525115ef20ad50f759c5ab2adadfaf93ee0be
               >
                 <div className="flex mb-4">
                   {[...Array(testimonial.rating)].map((_, i) => (
                     <svg
                       key={i}
+<<<<<<< HEAD
                       className="w-5 h-5 text-yellow-500 fill-current"
+=======
+                      className="w-5 h-5 text-yellow-400 fill-current"
+>>>>>>> 347525115ef20ad50f759c5ab2adadfaf93ee0be
                       viewBox="0 0 20 20"
                     >
                       <path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z" />
@@ -210,13 +281,22 @@ export default function Home() {
                   ))}
                 </div>
 
+<<<<<<< HEAD
                 <p className="text-gray-700 mb-6 leading-relaxed">
+=======
+                <p className="text-slate-300 mb-6 leading-relaxed">
+>>>>>>> 347525115ef20ad50f759c5ab2adadfaf93ee0be
                   "{testimonial.text}"
                 </p>
 
                 <div>
+<<<<<<< HEAD
                   <p className="text-gray-900 font-semibold">{testimonial.name}</p>
                   <p className="text-gray-500 text-sm">{testimonial.role}</p>
+=======
+                  <p className="text-white font-semibold">{testimonial.name}</p>
+                  <p className="text-slate-400 text-sm">{testimonial.role}</p>
+>>>>>>> 347525115ef20ad50f759c5ab2adadfaf93ee0be
                 </div>
               </motion.div>
             ))}
@@ -224,10 +304,18 @@ export default function Home() {
         </div>
       </section>
 
+<<<<<<< HEAD
       <section className="py-12 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <div className="bg-gray-50 border-2 border-gray-200 rounded-2xl p-4">
             <p className="text-gray-500 text-center text-sm">
+=======
+      {/* AD SECTION */}
+      <section className="py-12 px-4">
+        <div className="max-w-4xl mx-auto">
+          <div className="bg-slate-800/30 backdrop-blur-sm border border-slate-700 rounded-2xl p-4">
+            <p className="text-slate-400 text-center text-sm">
+>>>>>>> 347525115ef20ad50f759c5ab2adadfaf93ee0be
               Advertisement Space - AdSense Integration
             </p>
           </div>
